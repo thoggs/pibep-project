@@ -21,11 +21,9 @@ body {
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
-    -ms-animation: none !important;
     animation: none !important;
     -moz-transition: none !important;
     -webkit-transition: none !important;
-    -ms-transition: none !important;
     transition: none !important; }
 
 html, body, div, span, applet, object,
@@ -111,7 +109,6 @@ body, input, select, textarea {
 a {
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
   text-decoration: underline; }
   a:hover {
@@ -361,22 +358,15 @@ table.alt tbody tr td {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -moz-align-items: -moz-stretch;
-  -ms-align-items: -ms-stretch;
   align-items: stretch; }
 
 .highlights > * {
-    -moz-flex-shrink: 1;
     -webkit-flex-shrink: 1;
-    -ms-flex-shrink: 1;
     flex-shrink: 1;
-    -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
-    -ms-flex-grow: 0;
     flex-grow: 0; }
   .highlights > * {
     width: 33.3333333333%; }
@@ -557,13 +547,10 @@ ul.actions {
     padding: 0 0 0 1rem;
     vertical-align: middle; }
   ul.actions.special {
-    -moz-justify-content: center;
     -webkit-justify-content: center;
-    -ms-justify-content: center;
     justify-content: center;
     width: calc(100% + 1rem); }
   ul.actions.stacked {
-    -moz-flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -575,13 +562,9 @@ ul.actions {
   ul.actions.fit {
     width: calc(40% + 1rem); }
     ul.actions.fit li {
-      -moz-flex-grow: 1;
       -webkit-flex-grow: 1;
-      -ms-flex-grow: 1;
       flex-grow: 1;
-      -moz-flex-shrink: 1;
       -webkit-flex-shrink: 1;
-      -ms-flex-shrink: 1;
       flex-shrink: 1;
       width: 100%; }
       ul.actions.fit li > * {
@@ -590,20 +573,15 @@ ul.actions {
       width: 100%; }
   @media screen and (max-width: 480px) {
     ul.actions:not(.fixed) {
-      -moz-flex-direction: column;
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       margin-left: 0;
       width: 100% !important; }
       ul.actions:not(.fixed) li {
-        -moz-flex-grow: 1;
         -webkit-flex-grow: 1;
-        -ms-flex-grow: 1;
         flex-grow: 1;
-        -moz-flex-shrink: 1;
         -webkit-flex-shrink: 1;
-        -ms-flex-shrink: 1;
         flex-shrink: 1;
         padding: 1rem 0 0 0;
         text-align: center;
@@ -1394,17 +1372,13 @@ ul.icons {
   -ms-flex-pack: center;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
-  -moz-align-items: center;
   -webkit-align-items: center;
-  -ms-align-items: center;
   align-items: center;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-justify-content: center;
   -webkit-justify-content: center;
-  -ms-justify-content: center;
   justify-content: center;
   background-image: url("../../images/banner.jpg");
   background-position: center;
@@ -1555,7 +1529,6 @@ ul.icons {
     transform: scale(1.0);
     -moz-transition: opacity 1s ease, -moz-transform 1s ease;
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     opacity: 1;
     position: relative;
@@ -1588,11 +1561,9 @@ ul.icons {
   #banner:before {
     -moz-transition: opacity 3s ease;
     -webkit-transition: opacity 3s ease;
-    -ms-transition: opacity 3s ease;
     transition: opacity 3s ease;
     -moz-transition-delay: 1.25s;
     -webkit-transition-delay: 1.25s;
-    -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
     background: #111111;
     content: '';
@@ -1613,7 +1584,6 @@ ul.icons {
     opacity: 0.6;
     position: absolute;
     top: 0;
-    -webkit-linear-gradientidth: 100%;
     width: 100%;
     z-index: 1; }
   #banner.small {
@@ -1962,7 +1932,6 @@ ul.icons {
       padding: 4rem 0 2rem 0 ; } }
   @media screen and (max-width: 980px) {
     #footer .content {
-      -moz-flex-wrap: wrap;
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
@@ -2001,17 +1970,13 @@ body {
     opacity: 0.05; }
 
 #header {
-  -moz-align-items: center;
   -webkit-align-items: center;
-  -ms-align-items: center;
   align-items: center;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-justify-content: space-between;
   -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
   justify-content: space-between;
   background: #212121;
   color: rgba(255, 255, 255, 0.5);
@@ -2082,17 +2047,13 @@ body {
   -ms-flex-pack: center;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
-  -moz-align-items: center;
   -webkit-align-items: center;
-  -ms-align-items: center;
   align-items: center;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-justify-content: center;
   -webkit-justify-content: center;
-  -ms-justify-content: center;
   justify-content: center;
   background-image: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), url("../../images/banner.jpg");
   background-position: center;
@@ -2279,7 +2240,6 @@ body {
   transform: translateX(20rem);
   -moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   -webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-  -ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
   -webkit-overflow-scrolling: touch;
   box-shadow: none;
@@ -2372,7 +2332,6 @@ body {
     text-decoration: none;
     -moz-transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     border: 0;
