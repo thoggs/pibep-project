@@ -1,9 +1,9 @@
 
 
-var btnCad = document.getElementById("btn-cad")
-var btnMail = document.getElementById("btn-mail")
-var altcssMail = document.getElementById("inner-form-mail")
-var altcssCad = document.getElementById("inner-form-cad")
+const btnCad = document.getElementById("btn-cad")
+const btnMail = document.getElementById("btn-mail")
+const altcssMail = document.getElementById("inner-form-mail")
+const altcssCad = document.getElementById("inner-form-cad")
 
 
 btnMail.onclick = function (e) {
