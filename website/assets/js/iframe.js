@@ -28,7 +28,6 @@ btnMail.onclick = function (e) {
         } else{
             altcssMail.classList.add("hide-mail")}
     }
-
     divForm.appendChild(cadForm)
 }
 
@@ -53,6 +52,5 @@ btnCad.onclick = function (e) {
         } else{
             altcssCad.classList.add("hide-cad")}
     }
-
     divForm.appendChild(mailForm)
 }

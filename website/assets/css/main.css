@@ -356,12 +356,11 @@ table.alt tbody tr td {
   margin: 2.5rem 0;
   display: -moz-flex;
   display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  align-items: stretch; }
+  align-items: stretch;
+}
 
 .highlights > * {
     -webkit-flex-shrink: 1;
@@ -2551,10 +2550,15 @@ iframe {
   border-radius: 10px;
 
   background: #009bff;
-  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
-  background: -o-linear-gradient(left, #0072ff, #00c6ff);
-  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
-  background: linear-gradient(left, #0072ff, #00c6ff);
+  background: -webkit-linear-gradient(left, #88ffff, #64c1ff);
+  background: -o-linear-gradient(left, #88ffff, #64c1ff);
+  background: -moz-linear-gradient(left, #88ffff, #64c1ff);
+  background: linear-gradient(left, #88ffff, #64c1ff);
+
+  /*background: -webkit-linear-gradient(left, #0072ff, #00c6ff);*/
+  /*background: -o-linear-gradient(left, #0072ff, #00c6ff);*/
+  /*background: -moz-linear-gradient(left, #0072ff, #00c6ff);*/
+  /*background: linear-gradient(left, #0072ff, #00c6ff);*/
   
   display: -webkit-box;
   display: -webkit-flex;
@@ -2596,11 +2600,13 @@ iframe {
   padding: 15px;
   border-radius: 10px;
 
-  background: #009bff;
-  background: -webkit-linear-gradient(left, #00c853, #5efc82);
-  background: -o-linear-gradient(left, #00c853, #5efc82);
-  background: -moz-linear-gradient(left, #00c853, #5efc82);
-  background: linear-gradient(left, #00c853, #5efc82);
+
+
+
+  background: -webkit-linear-gradient(left, #5efc82, #9fffe0);
+  background: -o-linear-gradient(left, #5efc82, #9fffe0);
+  background: -moz-linear-gradient(left, #5efc82, #9fffe0);
+  background: linear-gradient(left, #5efc82, #9fffe0);
   
   display: -webkit-box;
   display: -webkit-flex;
@@ -2748,7 +2754,7 @@ textarea.input1 + .shadow-input1 {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #00b0ff;
+  background: #64c1ff;
   font-size: 15px;
   line-height: 1.5;
   color: #484848;
@@ -2808,20 +2814,19 @@ textarea.input1 + .shadow-input1 {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #5efc82;
+  background: #9fffe0;
   font-size: 15px;
   line-height: 1.5;
   color: #484848;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 25px;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  box-shadow: 0 0 4px #fff, 0 0 4px #009624;
+  box-shadow: 0 0 4px #fff, 0 0 4px #2bbd7e;
 }
 
 .contact1-form-btn-sendcad i {
@@ -2865,11 +2870,11 @@ textarea.input1 + .shadow-input1 {
 }
 
 .btn-space-mail{
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .btn-space-cad{
-  margin-left: 10%;
+  margin-left: 5%;
 }
 /*-------------------------------------------------------*/
 
@@ -2881,9 +2886,10 @@ textarea.input1 + .shadow-input1 {
 .contact1-form-btnmail {
   min-width: 193px;
   height: 50px;
-  border-radius: 25px;
-  background: #00b0ff;
-  font-size: 15px;
+  border-radius: 20px;
+  background: #88ffff;
+  /*background: #00b0ff;*/
+  font-size: 16px;
   line-height: 1.5;
   color: #484848;
   display: -webkit-box;
@@ -2895,11 +2901,12 @@ textarea.input1 + .shadow-input1 {
   align-items: center;
   padding: 0 25px;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  box-shadow: 0 0 4px #fff, 0 0 4px #000051;
+  box-shadow: 0 0 4px #fff, 0 0 4px #009faf;
+  width: 30%;
 }
 
 .contact1-form-btnmail:hover {
-  box-shadow: 0 0 13px #fff, 0 0 13px #000051;
+  box-shadow: 0 0 13px #fff, 0 0 13px #0088a3;
 }
 /*-------------------------------------------------------*/
 
@@ -2911,21 +2918,21 @@ textarea.input1 + .shadow-input1 {
 .contact1-form-btncad {
   min-width: 193px;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 20px;
   background: #5efc82;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   color: #484848;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 25px;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
   box-shadow: 0 0 4px #fff, 0 0 4px #009624;
+  width: 30%;
 }
 
 .contact1-form-btncad:hover {
@@ -3003,7 +3010,6 @@ textarea.input1 + .shadow-input1 {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 8px;
@@ -3033,7 +3039,6 @@ textarea.input1 + .shadow-input1 {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 13px;
