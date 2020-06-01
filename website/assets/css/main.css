@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600');
 
 /* Basic */
-@-ms-viewport {
-  max-width: auto }
-body {
-  -ms-overflow-style: scrollbar; }
 
 @media screen and (max-width: 480px) {
   html, body {
@@ -80,7 +76,6 @@ input::-moz-focus-inner {
 input, select, textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
-  -ms-appearance: none;
   appearance: none; }
 
 /* Typography */
@@ -485,29 +480,45 @@ table.alt tbody tr td {
   flex-wrap: wrap;
 }
 .ceo-box{
-  width: 25%;
-  max-width: 292px;
-  max-height: 300px;
+  width: 100%;
+  max-width: 330px;
+  max-height: 320px;
   background-color: white;
-  margin: 10px;
+  margin: 20px;
   padding: 50px 40px 35px 45px;
   opacity: 1;
-  border-radius: 8px;}
+  border-radius: 8px;
+  height: 100%;
+}
+
 .ceo-box:hover{
   transition: 0.5s;
   opacity: 1;
   background-color: rgba(235,235,235,0.85);
-  border-radius: 0;}
+  border-radius: 8px;
+}
+
 .ceo-box:hover .presentation{
   transition: 0.5s;}
 .ceo-box .description{
-  border-left: 6px solid #ccc;
-  padding: 20px 10px 25px 20px;
+  border-left: solid 0.4rem #cfcfcf;
   font-style: italic;
-  font-size: 13px;}
+  margin: 0 0 2rem 0;
+  padding: 1rem 0 1rem 2rem;
+  height: 150px;
+
+
+  /*border-left: 6px solid #ccc;*/
+  /*padding: 20px 10px 25px 20px;*/
+  /*font-style: italic;*/
+  /*font-size: 13px;*/
+  /*height: 150px;*/
+}
 .ceo-box .presentation{
   margin-top: 34px;
-  font-size: 12px;}
+  font-size: 0.75rem;
+}
+
 .ceo-box .presentation .profile strong{
   color: #ce1b28;}
 .ceo-box .presentation .profile img{
