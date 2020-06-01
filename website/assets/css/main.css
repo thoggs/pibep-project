@@ -2392,6 +2392,9 @@ body.is-menu-visible #menu {
   margin-bottom: 50px;
 } 
 
+/*----------------------------------------------------
+[ Fomulario Email ]*/
+
 #inner-form-mail{
   overflow:hidden;
   max-height:800px;
@@ -2403,6 +2406,12 @@ body.is-menu-visible #menu {
   max-height: 0;
   pointer-events: none;
 }
+/*----------------------------------------------------*/
+
+
+
+/*----------------------------------------------------
+[ Fomulario Email ]*/
 
 #inner-form-cad{
   overflow:hidden;
@@ -2415,6 +2424,9 @@ body.is-menu-visible #menu {
   max-height: 0;
   pointer-events: none;
 }
+/*----------------------------------------------------*/
+
+
 
 #button-register{
   border-radius: 50px;
