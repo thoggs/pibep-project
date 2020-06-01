@@ -502,7 +502,7 @@ table.alt tbody tr td {
 .ceo-box:hover .presentation{
   transition: 0.5s;}
 .ceo-box .description{
-  border-left: solid 0.4rem #cfcfcf;
+  border-left: solid 0.3rem #cfcfcf;
   font-style: italic;
   margin: 0 0 2rem 0;
   padding: 1rem 0 1rem 2rem;
