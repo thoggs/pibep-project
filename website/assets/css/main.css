@@ -484,18 +484,19 @@ table.alt tbody tr td {
   max-width: 330px;
   max-height: 320px;
   background-color: white;
-  margin: 20px;
+  margin: 23px;
   padding: 50px 40px 35px 45px;
   opacity: 1;
   border-radius: 8px;
   height: 100%;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .ceo-box:hover{
   transition: 0.5s;
   opacity: 1;
-  background-color: rgba(235,235,235,0.85);
   border-radius: 8px;
+  box-shadow: 0 0 13px #fff, 0 0 13px #9e9e9e;
 }
 
 .ceo-box:hover .presentation{
@@ -506,14 +507,8 @@ table.alt tbody tr td {
   margin: 0 0 2rem 0;
   padding: 1rem 0 1rem 2rem;
   height: 150px;
-
-
-  /*border-left: 6px solid #ccc;*/
-  /*padding: 20px 10px 25px 20px;*/
-  /*font-style: italic;*/
-  /*font-size: 13px;*/
-  /*height: 150px;*/
 }
+
 .ceo-box .presentation{
   margin-top: 34px;
   font-size: 0.75rem;
@@ -533,16 +528,19 @@ table.alt tbody tr td {
   width: 60%;
   }
 }
+
 @media screen and (max-width: 700px){
   .ceo-box{
   width: 70%;
   }
 }
+
 @media screen and (max-width: 550px){
   .ceo-box{
   width: 85%;
   }
 }
+
 /* Actions */
 ul.actions {
   display: -moz-flex;
@@ -2778,7 +2776,7 @@ textarea.input1 + .shadow-input1 {
   align-items: center;
   padding: 0 25px;
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  box-shadow: 0 0 4px #fff, 0 0 4px #0072ff;
+  box-shadow: 0 0 4px #fff, 0 0 4px #1d91cc;
 }
 
 .contact1-form-btn-sendmail i {
@@ -2899,7 +2897,6 @@ textarea.input1 + .shadow-input1 {
   height: 50px;
   border-radius: 20px;
   background: #88ffff;
-  /*background: #00b0ff;*/
   font-size: 16px;
   line-height: 1.5;
   color: #484848;
@@ -2917,7 +2914,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .contact1-form-btnmail:hover {
-  box-shadow: 0 0 13px #fff, 0 0 13px #0088a3;
+  box-shadow: 0 0 13px #fff, 0 0 13px #009faf;
 }
 /*-------------------------------------------------------*/
 
@@ -3066,11 +3063,13 @@ textarea.input1 + .shadow-input1 {
     opacity: 1;
   }
 }
+/*-----------------------------------------------------------------*/
 
 
 
 /*-----------------------------------------------------------------
 [ Xbar ]*/
+
 .bar-center{
   position: fixed;
   top: 0;
