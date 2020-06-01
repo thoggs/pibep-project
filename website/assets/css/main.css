@@ -2553,10 +2553,12 @@ iframe {
 [ contact1 MAIL ] */
 
 .contact1 {
-  width: 100%;
+  width: 80%;
   min-height: 100%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 
   background: #009bff;
   background: -webkit-linear-gradient(left, #88ffff, #64c1ff);
@@ -2564,11 +2566,6 @@ iframe {
   background: -moz-linear-gradient(left, #88ffff, #64c1ff);
   background: linear-gradient(left, #88ffff, #64c1ff);
 
-  /*background: -webkit-linear-gradient(left, #0072ff, #00c6ff);*/
-  /*background: -o-linear-gradient(left, #0072ff, #00c6ff);*/
-  /*background: -moz-linear-gradient(left, #0072ff, #00c6ff);*/
-  /*background: linear-gradient(left, #0072ff, #00c6ff);*/
-  
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -2580,7 +2577,7 @@ iframe {
 }
 
 .container-contact1 {
-  width: 1163px;
+  width: 100%;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -2594,7 +2591,7 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  padding: 90px 130px 88px 148px;
+  padding: 30px 40px 30px 50px;
 }
 /*-------------------------------------------------------*/
 
@@ -2604,10 +2601,12 @@ iframe {
 [ contact2 Cadastro ] */
 
 .contact2 {
-  width: 100%;
+  width: 80%;
   min-height: 100%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 
 
 
@@ -2628,7 +2627,7 @@ iframe {
 }
 
 .container-contact2 {
-  width: 1163px;
+  width: 100%;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -2642,10 +2641,8 @@ iframe {
   justify-content: space-between;
   align-items: center;
 
-  padding: 90px 130px 88px 148px;
+  padding: 30px 40px 30px 50px;
 }
-
-
 
 /*------------------------------------------------------------------
 [  ]*/
@@ -2655,12 +2652,12 @@ iframe {
 
 .contact1-pic img {
   max-width: 100%;
+  padding: 0 0 75px 55px;
 }
 
-
-
 /*------------------------------------------------------------------
-[  ]*/
+[ Formulário ]*/
+
 .contact1-form {
   width: 390px;
 }
@@ -2756,7 +2753,7 @@ textarea.input1 + .shadow-input1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 35px;
 }
 
 .contact1-form-btn-sendmail {
