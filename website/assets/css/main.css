@@ -512,7 +512,7 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 30px 20px 20px 20px;
+	margin: 35px 15px 15px 0;
 }
 
 .contact2-form-btn-enter {
@@ -556,7 +556,7 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 30px 20px 20px 20px;
+	margin: 35px 0 15px 15px;
 }
 .contact2-form-btn-cancel {
 	min-width: 140px;
