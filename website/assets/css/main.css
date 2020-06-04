@@ -157,16 +157,6 @@ html, body{
 	width: auto;
 }
 
-.btn-login{
-	color: #ffffff;
-	cursor: pointer;
-	background-color: #E0E0E0;
-	font-size: 15px;
-	border-radius: 5px;
-	margin-right: 16px;
-	padding: 0 7px;
-}
-
 .user-enter a:last-child{
 	text-decoration: none;
 	font-size: 15px;
