@@ -1,6 +1,8 @@
 @import url(font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600');
 
+
+/*-------------[ HTML e Body ]-------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -14,9 +16,12 @@ html, body{
 
 .clear{
 	clear: both;
-}
 
-/*---scroll-x---*/
+}/*-------------[ HTML e Body ]-------------*/
+
+
+
+/*-------------[ Xcroll X ]-------------*/
 
 .bar-center{
   position: fixed;
@@ -37,9 +42,8 @@ html, body{
   height: 4px;
   background-color: #f50057;
   width: 0;
-}
 
-/*---scroll-x---*/
+}
 
 .center{
 	max-width: 1550px;
@@ -70,9 +74,12 @@ html, body{
 	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-}
 
-/*---responsividade-header---*/
+}/*-------------[ Xcroll X ]-------------*/
+
+
+
+/*-------------[ Responsive Header ]-------------*/
 @media screen and (max-width: 1325px){
 	.logo{
 		margin-right: 300px;
@@ -116,9 +123,8 @@ html, body{
 	.logo{
 		margin-left: 10px;
 	}
-}
-/*---responsividade-header---*/
 
+}
 
 .logo a{
 	color: #fff;
@@ -256,10 +262,11 @@ html, body{
 .card-title{
 	padding: 70px 0 10px;
 
-}
+}/*-------------[ Resposive Header ]-------------*/
 
-/*------------------------------------------------------------------
-[ PIC ]*/
+
+
+/*-------------[ PIC ]-------------*/
 .contact1-pic {
 	justify-content: center;
 	max-width: 450px;
@@ -270,11 +277,12 @@ html, body{
 
 .contact1-pic img {
 	max-width: 100%;
-}
 
-/*------------------------------------------------------------------
-[ Responsive ]*/
+}/*-------------[ PIC ]-------------*/
 
+
+
+/*-------------[ Resposive Arrow panel ]-------------*/
 @media (max-width: 1200px) {
 	.contact1-pic {
 		width: 33.5%;
@@ -347,7 +355,7 @@ html, body{
 	flex-wrap: wrap;
 	margin: 0 auto;
 	color: white;
-}
+}/*-------------[ Resposive Arrow panel ]-------------*/
 
 
 
