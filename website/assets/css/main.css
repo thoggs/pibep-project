@@ -166,14 +166,14 @@ html, body{
 }
 
 .up-arrow, .login-form{
-	width: content-box;
+	width: 350px;
 	min-height: 100%;
 	visibility: hidden;
 	opacity: 0;
 	padding: 30px;
 	background-color: #9e9e9e;
 	font-size: 15px;
-	border-radius: 20px;
+	border-radius: 18px;
 	float: right;
 	display: flex;
 	flex-wrap: wrap;
@@ -466,7 +466,7 @@ textarea.input1 + .shadow-input1 {
 	justify-content: center;
 	width: 15px;
 	float: right;
-	padding: 0 10% 0 0;
+	margin: 0 5% 0 0;
 }
 
 .contact1-form-btn-header {
@@ -480,7 +480,6 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0 25px;
 	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out
 }
 
@@ -509,14 +508,14 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 35px 15px 15px 0;
+	margin: 35px 10px 15px 3px;
 }
 
 .contact2-form-btn-enter {
 	float: right;
-	min-width: 140px;
-	height: 45px;
-	border-radius: 20px;
+	min-width: 120px;
+	height: 40px;
+	border-radius: 18px;
 	background: #5efc82;
 	font-size: 15px;
 	line-height: 1.5;
@@ -553,12 +552,12 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 35px 0 15px 15px;
+	margin: 35px 3px 15px 10px;
 }
 .contact2-form-btn-cancel {
-	min-width: 140px;
-	height: 45px;
-	border-radius: 20px;
+	min-width: 120px;
+	height: 40px;
+	border-radius: 18px;
 	background: #cfcfcf;
 	font-size: 15px;
 	line-height: 1.5;
