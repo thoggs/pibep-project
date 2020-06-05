@@ -280,7 +280,7 @@ html, body{
 
 
 
-/*-------------[ Arrow panel ]-------------*/
+/*-------------[ Parallax ]-------------*/
 .MainContainer {
 	perspective: 1px;
 	transform-style: preserve-3d;
@@ -333,7 +333,18 @@ html, body{
 	flex-wrap: wrap;
 	margin: 0 auto;
 	color: white;
-}/*-------------[ Resposive Arrow panel ]-------------*/
+}
+
+@media (max-width: 1400px) {
+	.Content {
+		width: 1000px;
+	}
+}
+@media (max-width: 1000px) {
+	.Content {
+		width: 550px;
+	}
+}/*-------------[ Parallax ]-------------*/
 
 
 
