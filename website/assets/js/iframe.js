@@ -2,7 +2,7 @@
 
 const btnHeader = document.getElementById('btnHeader')
 const arrowElement = document.getElementById('upArrow"')
-const btnCancarrowElement = document.getElementById('btnCancel')
+const btnCancel = document.getElementById('btnCancel')
 
 
 btnHeader.onclick = function (e) {
@@ -13,7 +13,7 @@ btnHeader.onclick = function (e) {
     btnHeader.style.setProperty('display', 'none')
 }
 
-btnCancarrowElement.onclick = function (e) {
+btnCancel.onclick = function (e) {
     e.preventDefault()
 
     arrowElement.style.setProperty('opacity', '0')
