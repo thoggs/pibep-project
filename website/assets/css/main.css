@@ -28,7 +28,7 @@ html, body{
 
 
 /*-------------[ Header ]-------------*/
-.header{
+.header {
 	width: 100%;
 	height: 88px;
 	padding: 30px 2%;
@@ -38,88 +38,87 @@ html, body{
 	align-items: center;
 }
 
-.logo{
+.btn-logo {
+	font-size: 16px;
+	position: absolute;
 	float: left;
-	margin-right: 630px;
+	margin-left: 80px;
+	margin-top: 2px;
+}
+
+.btn-logo button {
+	font-size: 20px;
+	color: #c7c7c7;
+}
+
+.btn-logo button:hover{
+	color: #fff;
+}
+
+@media (max-width: 700px) {
+	#contacts {
+		display: none;
+	}
+}
+
+@media (max-width: 500px) {
+	#logo {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	#logo {
+		display: none;
+	}
 }
 
 .intro {
 	text-align: center;
 	margin-bottom: 4rem;
 }
+
 .intro p {
 	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-@media screen and (max-width: 1325px){
-	.logo{
-		margin-right: 300px;
-	}
+.menu-opt h1 {
+	text-align: center;
+	margin: 80px 0;
 }
 
-@media screen and (max-width: 990px){
-	.logo{
-		margin-right: 0;
-	}
-}
-
-@media screen and (max-width: 670px){
-	.logo{
-		margin-left: 40px;
-		margin-right: 0;
-	}
-
-	.menu-grp li{
-		margin-left: 50px;
-		margin-right: 20px;
-	}
-
-	.header{
-		height: 80px;
-	}
-
-	.user-enter{
-		position: absolute;
-		top: 50px;
-		left: 30%;
-	}
-}
-
-@media screen and (max-width: 515px){
-	.menu-grp li{
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	.logo{
-		margin-left: 10px;
-	}
-}
-
-.logo a{
-	color: #fff;
-	text-decoration: none;
-	font-weight: 800;
-}
-
-.menu-grp li{
-	width: auto;
-	float: left;
-	margin-left: 40px;
+.menu-opt ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	list-style-type: none;
+	padding: 0;
+	position: absolute;
 }
 
-.menu-grp a{
+.menu-opt li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.menu-opt a {
+	display: block;
+	font-size: 16px;
+	color: #c7c7c7;
 	text-decoration: none;
-	color: rgb(220,220,220);
+	padding: 7px 15px;
 }
 
-.header a:hover{
-	color: #ffffff;
-	transition: 0.3s;
-} 
+.menu-opt a,
+.target {
+	transition: all .35s ease-in-out;
+}
+
+.menu-opt a:hover {
+	color: white;
+}
 
 .user-enter{
 	float: right;
@@ -138,22 +137,52 @@ html, body{
 	border-radius: 5px;
 }
 
-.up-arrow, .login-form{
-	width: 350px;
-	min-height: 100%;
-	visibility: hidden;
-	opacity: 0;
-	padding: 9px;
+.up-arrow {
+	text-align: center;
+	overflow: hidden;
+	max-height: 350px;
+	transition: max-height 0.4s ease-in-out;
+	width: 335px;
 	background-color: #9e9e9e;
 	font-size: 15px;
 	border-radius: 17px;
-	float: right;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	transition: visibility 0s, opacity 0.5s linear;
+	object-position: center;
+	position: relative;
+	float: right;
+}
+
+.up-arrow.hide {
+	max-height: 0;
+	pointer-events: none;
+}
+
+@media (max-width: 1180px) {
+	.up-arrow {
+		width: 350px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.up-arrow {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.up-arrow {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 700px) {
+	.up-arrow {
+		display: none;
+	}
 }
 
 .introduction h1{
@@ -175,25 +204,11 @@ html, body{
 	justify-content: center;
 	z-index: 2;
 	position: absolute;
-	top: 40%;
-	left: 35%;
 	font-size: 22px;
 	color: #fff;
-}
+	align-items: center;
 
-@media (max-width: 1180px) {
-	.up-arrow {
-		width: 350px;
-	}
-}
-
-@media (max-width: 900px) {
-	.up-arrow {
-		display: none;
-	}
-}
-
-/*-------------[ Header ]-------------*/
+}/*-------------[ Header ]-------------*/
 
 
 
@@ -213,17 +228,31 @@ html, body{
 }
 
 .inner{
-	width: 100%;
-	max-width: 400px;
-	max-height: 500px;
+	width: 400px;
+	height: 450px;
 	background-color: #fafafa;
 	margin: 25px;
 	padding: 35px 23px 35px 23px;
 	opacity: 1;
 	border-radius: 8px;
-	height: 550px;
 	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 	box-shadow: 0 0 4px #fff, 0 0 4px #c7c7c7;
+}
+
+@media (max-width: 900px) {
+	.inner {
+		width: 350px;
+		margin: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.inner {
+		width: 100%;
+		height: 400px;
+	}
+	.intro {
+		margin: 0 0 50px 0;
+	}
 }
 
 .inner:hover{
@@ -290,13 +319,14 @@ html, body{
 }
 
 .ContentContainer {
+	width: 100%;
 	position: relative;
 	display: block;
 	background-color: white;
 	z-index: 1;
 }
 .Content {
-	width: 1400px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -335,15 +365,33 @@ html, body{
 	color: white;
 }
 
-@media (max-width: 1400px) {
-	.Content {
-		width: 1000px;
-	}
-}
 @media (max-width: 1000px) {
 	.Content {
 		width: 550px;
 	}
+}
+
+@media (max-width: 414px) {
+	.Content {
+		width: 375px;
+	}
+}
+
+@media (max-width: 360px) {
+	.Content {
+		width: 350px;
+	}
+}
+@media (max-width: 320px) {
+	.Content {
+		width: 320px;
+	}
+}
+@media (max-height: 500px) {
+	.container-banner {
+		display: none;
+	}
+
 }/*-------------[ Parallax ]-------------*/
 
 
@@ -389,12 +437,14 @@ iframe {
 	line-height: 1.2;
 	text-align: center;
 	padding-bottom: 44px;
+	margin-top: 22px;
 }
 
 input.input1 {
 	height: 50px;
 	border-radius: 25px;
 	padding: 0 30px;
+
 }
 input.input1 + .shadow-input1 {
 	border-radius: 25px;
@@ -418,11 +468,12 @@ textarea.input1 + .shadow-input1 {
 
 .input1 {
 	display: block;
-	width: 100%;
+	width: 320px;
 	background: #8e8e8e;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #212121;
+	margin: 0 9px;
 }
 
 .shadow-input1 {
@@ -461,12 +512,13 @@ textarea.input1 + .shadow-input1 {
 
 /*-------------[ Button Header Enter ]-------------*/
 .container-contact1-form-btn-header {
-	display: flex;
+	align-items: center;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 15px;
+	position: relative;
 	float: right;
-	margin: 0 5% 0 0;
+	margin-right: 120px;
 }
 
 .contact1-form-btn-header {
@@ -477,10 +529,7 @@ textarea.input1 + .shadow-input1 {
 	font-size: 15px;
 	line-height: 1.5;
 	color: #484848;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out
+	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .contact1-form-btn-header i {
@@ -507,6 +556,7 @@ textarea.input1 + .shadow-input1 {
 		opacity: 0;
 		visibility: hidden;
 	}
+
 	#btnMobile {
 		display: block;
 	}
@@ -522,7 +572,7 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 36px 31px 9px 2px;
+	margin: 36px 40px 15px 2px;
 }
 
 .contact2-form-btn-enter {
@@ -566,7 +616,7 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 36px 2px 9px 31px;
+	margin: 36px 2px 20px 40px;
 }
 .contact2-form-btn-cancel {
 	min-width: 117px;

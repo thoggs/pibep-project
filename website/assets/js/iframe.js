@@ -1,22 +1,23 @@
 
 
-const btnHeader = document.getElementById('btnHeader')
-const arrowElement = document.getElementById('upArrow"')
+const btnHeader = document.getElementById('btnLoginHeader')
+const arrowElement = document.getElementById('upArrow')
 const btnCancel = document.getElementById('btnCancel')
 
+function btnDisplay() {
+    btnHeader.style.display = 'inline-block'
+}
 
 btnHeader.onclick = function (e) {
     e.preventDefault()
 
-    arrowElement.style.setProperty('opacity', '1')
-    arrowElement.style.setProperty('visibility', 'visible')
-    btnHeader.style.setProperty('display', 'none')
+    btnHeader.style.display = 'none'
+    arrowElement.classList.remove('hide')
 }
 
 btnCancel.onclick = function (e) {
     e.preventDefault()
 
-    arrowElement.style.setProperty('opacity', '0')
-    arrowElement.style.setProperty('visibility', 'hidden')
-    btnHeader.style.setProperty('display', 'flex')
+    arrowElement.classList.add('hide')
+    setTimeout(btnDisplay, 410)
 }
