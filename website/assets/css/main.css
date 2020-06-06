@@ -615,7 +615,7 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0 0 2px #fff, 0 0 2px #333333;
+	box-shadow: 0 0 1px #fff, 0 0 1px #009624;
 	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out
 }
 
@@ -627,7 +627,7 @@ textarea.input1 + .shadow-input1 {
 .contact2-form-btn-enter:hover {
 	background: #333333;
 	color: #fff;
-	box-shadow: 0 0 4px #fff, 0 0 4px #000000;
+	box-shadow: 0 0 4px #fff, 0 0 4px #333333;
 }
 
 .contact2-form-btn-enter:hover i {
@@ -657,14 +657,14 @@ textarea.input1 + .shadow-input1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 0 0 2px #fff, 0 0 2px #000000;
+	box-shadow: 0 0 1px #fff, 0 0 1px #333333;
 	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out
 }
 
 .contact2-form-btn-cancel:hover {
 	background: #333333;
 	color: #fff;
-	box-shadow: 0 0 4px #fff, 0 0 4px #000000;
+	box-shadow: 0 0 4px #fff, 0 0 4px #333333;
 
 }/*------------[ Button Arrow Cancel ]------------*/
 
