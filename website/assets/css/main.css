@@ -364,32 +364,31 @@ html, body{
 	background-origin: content-box;
 	background: transparent url("../img/banner10.png") no-repeat;
 	/*background: -webkit-linear-gradient(left, #ede7f6, #d1c4e9);*/
-
 }
 
 .container-banner {
-	justify-content: center;
 	width: 100%;
-	margin: 0 auto;
-	padding: 0 0 150px;
+	position: absolute;
+	float: left;
 }
 
-.container-banner h1 {
-	font-size: 45px;
-}
-
-.container-banner p {
-	font-size: 20px;
-}
-
-.legacy{
+.banner-logo {
 	position: relative;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 0 700px 0 0;
-	/*color: #333333;*/
+	text-align: center;
+	width: 500px;
+	margin: 0 0 130px 130px;
+}
+
+.banner-logo h1 {
+	text-align: center;
 	color: #ffffff;
+	font-size: 48px;
+}
+
+.banner-logo p {
+	text-align: center;
+	color: #ffffff;
+	font-size: 22px;
 }
 
 @media (max-width: 1000px) {
