@@ -340,7 +340,7 @@ html, body{
 	background-color: #ececec;
 }
 .Content {
-	width: 100%;
+	width: 1400px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
