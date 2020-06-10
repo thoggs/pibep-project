@@ -770,3 +770,11 @@ textarea.input1 + .shadow-input1 {
 
 }/*------------[ Alert Validate ]------------*/
 
+
+
+/*------------[ Decorate Bar ]------------*/
+.decorate {
+	width: 100%;
+	height: 3px;
+	background: -webkit-linear-gradient(left, rgb(109, 251, 196), #0c67c4);
+}/*------------[ Decorate Bar ]------------*/
