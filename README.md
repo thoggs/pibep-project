@@ -1,5 +1,7 @@
 # PIBEP v8º PUCPR
 
+![image](https://github.com/thoggs/pibepv8-project/blob/master/git/img/readme.png)
+
 ## Lista de tarefas do Projeto
 - Implementar pagina web funcional
 - Implementar solução para armazenar os dados (Banco de dados/JSON)
