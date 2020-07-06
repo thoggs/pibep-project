@@ -1,5 +1,4 @@
-# PIBEP v8º PUCPR ![License: GPL v3+](https://img.shields.io/badge/License-GPL%20v3%2B-blue.svg)
-![image](https://github.com/thoggs/pibepv8-project/blob/master/git/img/readme.png)
+# PIBEP v8º PUCPR
 
 ## Lista de tarefas do Projeto
 - Implementar pagina web funcional
